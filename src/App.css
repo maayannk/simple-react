@@ -1,0 +1,50 @@
+/* App.css */
+
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: white; /* Match background to white */
+}
+
+.child {
+  text-align: center;
+  background-color: #f9f9f9; /* Very light grey for contrast */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  transition: transform 0.2s , background-color 0.3s; /* Smooth scaling effect */
+}
+
+.child:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+  background-color: #E6E6FA;
+}
+
+.child div {
+  font-size: 2rem; /* Larger font size for count */
+  margin-bottom: 20px;
+  color: #333; /* Darker text color */
+}
+
+.button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #007bff; /* Blue background */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.button:active {
+  background-color: #003d80; /* Even darker blue on click */
+}
