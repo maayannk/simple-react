@@ -15,7 +15,6 @@ This project is built using the following technologies:
 - [React](https://reactjs.org/) - A JavaScript library for building user interfaces.
 - [React Hooks](https://reactjs.org/docs/hooks-intro.html) - For managing component state and side effects.
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - For styling the application.
-- 
 ## Installation
 
 To run this project locally, follow these steps:
